@@ -19,8 +19,8 @@ stages:
           matrix:
             Java8:
               JAVA_VERSION: '1.8'
-            Java11:
-              JAVA_VERSION: '1.11'
+              # Java11:
+              # JaJAVA_VERSION: '1.11'
         steps:
           - task: Maven@3
             inputs:
